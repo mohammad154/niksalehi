@@ -1,0 +1,104 @@
+@media (max-width: 319px) {
+    main > div > .old_content3 > article > .image {
+        flex-flow: column wrap;
+        align-items: center;
+    }
+}
+
+/* Smallest devices (landscape phones, 479px and down)*/
+@media (max-width: 479px) {
+    main > div > .old_content > article {
+        width: 100%;
+    }
+}
+
+/* Small devices (landscape phones, 576px and down)*/
+@media (max-width: 576px) {
+    main > div > .old_content3 > article > .image > div {
+        width: 36vw;
+        display: flex;
+        flex-flow: column wrap;
+        align-items: center;
+        margin-left: 10px;
+    }
+
+    main > div > .old_content3 > article > .image > div > a {
+        margin-bottom: 20px;
+    }
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) {
+    .title-bar {
+        width: 65px;
+    }
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+    time {
+        display: inline;
+        font-size: 1.8vw;
+    }
+
+    main > .content-wide {
+        width: 71%;
+    }
+
+    .main-picture-news {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-around;
+    }
+
+    main > div > .main-picture-news > article {
+        width: 32%;
+        cursor: pointer;
+        height: 188px;
+    }
+
+    main > div > .main-picture-news > article > .picture-content {
+        font-size: 1.5vw;
+        font-weight: 100;
+        line-height: 1.1;
+        bottom: 8px;
+        width: auto;
+        max-width: 100%;
+    }
+
+    main > div > .old_content > article{
+        width: 100%;
+    }
+
+    main > div > .main-picture-news > article .picture-title{
+        font-size: 12px;
+        bottom: 154px;
+        right: 12px;
+    }
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+    header nav {
+        display: block;
+    }
+
+    .title-bar {
+        display: none;
+    }
+
+    time {
+        font-size: 1vw;
+    }
+
+    main > div > .main-picture-news > article > .picture-content{
+        font-size: 1.4vw;
+    }
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+    footer > div > .copyright {
+        display: block;
+    }
+}
