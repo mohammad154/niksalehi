@@ -1,7 +1,7 @@
 # niksalehi
 This is a project similar to [niksalehi](https://www.niksalehi.com) site
 
-##Features
+#Features
 Navigation Bar: Identified by classes such as blue-bar, logo, search-icon, and title-bar.
 Main Picture News: This section might showcase featured or highlighted news items, identified by the class main-picture-news and related classes like picture-content and picture-title.
 Old Content Sections: There are multiple sections labeled as old_content, which might display older articles or posts. These sections include elements with classes like horizontal-line, title-tag, image, and title-news2.
