@@ -1,31 +1,78 @@
-# niksalehi
-This is a project similar to [niksalehi](https://www.niksalehi.com) site
+# Niksalehi Clone
+
+A static front-end clone of the [Niksalehi](https://www.niksalehi.com) news website, built with plain HTML and CSS.
+
+![HTML](https://img.shields.io/badge/HTML-63.5%25-e34c26)
+![CSS](https://img.shields.io/badge/CSS-36.5%25-264de4)
+![License](https://img.shields.io/badge/license-MIT-green)
+
+## Overview
+
+This project recreates the layout and visual style of the Niksalehi homepage — a Persian news portal — using only static HTML and CSS. It's a good reference for practicing real-world layout techniques: multi-column news grids, tab-based content switching, and RTL (right-to-left) typography.
 
 ## Features
-Navigation Bar: Identified by classes such as blue-bar, logo, search-icon, and title-bar.
-Main Picture News: This section might showcase featured or highlighted news items, identified by the class main-picture-news and related classes like picture-content and picture-title.
-Old Content Sections: There are multiple sections labeled as old_content, which might display older articles or posts. These sections include elements with classes like horizontal-line, title-tag, image, and title-news2.
-Tab Box: Possibly a tabbed section where users can switch between different content views. Identified by the class tab_box and related classes like title and post-list.
-Box Omen: A distinct section, possibly for special content or features. Identified by the class box-omen and related classes.
-A Review of the Past: Another distinct section which might display historical or flashback content. Identified by the class a-review-of-the-past.
-Image Lists: A series of images, possibly a gallery or a set of thumbnails for articles.
-Footer: Identified by classes like copyright.
-Project Structure
-.idea/: Contains project-specific settings for IDEs like IntelliJ IDEA or PyCharm. (It's recommended to add this to .gitignore if the project is in a version control system like Git.)
-css/: Contains all the CSS files used to style the web pages.
-fonts/: Contains custom fonts used in the project.
-images/: Contains image assets used in the project.
-index.html: The main entry point of the web application.
-Setup and Installation
-Prerequisites: Ensure you have a modern browser installed (e.g., Chrome, Firefox).
-Clone the repository to your local machine.
-Navigate to the project directory.
-Open index.html in your preferred browser.
-Contributing
-If you would like to contribute to this project, please follow these steps:
 
-Fork the repository.
-Create a new branch for your features or fixes.
-Send a pull request from your branch to the main project's master branch.
-License
-This project is licensed under the MIT License - see the LICENSE.md file for details.
+- **Navigation bar** — top blue bar with logo, search icon, and title bar
+- **Main picture news** — hero section for featured/highlighted stories
+- **Old content sections** — repeated article blocks with thumbnails and titles
+- **Tab box** — a tabbed widget for switching between content views
+- **Box Omen** — a dedicated section for special/featured content
+- **A Review of the Past** — a "flashback" section for historical content
+- **Image galleries** — thumbnail lists/grids for article previews
+- **Footer** — copyright and site info
+
+## Project Structure
+
+```
+niksalehi/
+├── css/         # Stylesheets for layout, typography, and components
+├── fonts/       # Custom/Persian web fonts used across the site
+├── images/      # Image assets (icons, thumbnails, banners)
+├── index.html   # Main entry point of the site
+└── README.md
+```
+
+## Getting Started
+
+### Prerequisites
+
+- A modern web browser (Chrome, Firefox, Edge, Safari)
+- No build tools, package managers, or server required
+
+### Run locally
+
+```bash
+# Clone the repository
+git clone https://github.com/mohammad154/niksalehi.git
+
+# Navigate into the project
+cd niksalehi
+
+# Open index.html in your browser
+```
+
+On most systems you can simply double-click `index.html`, or serve it locally:
+
+```bash
+# Python 3
+python -m http.server 8000
+# then visit http://localhost:8000
+```
+
+## Contributing
+
+Contributions are welcome!
+
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/my-feature`)
+3. Commit your changes (`git commit -m "Add my feature"`)
+4. Push to your branch (`git push origin feature/my-feature`)
+5. Open a pull request against `master`
+
+## License
+
+This project is licensed under the MIT License — see the [LICENSE](LICENSE.md) file for details.
+
+## Disclaimer
+
+This is an independent, unofficial clone created for educational/practice purposes. It is not affiliated with or endorsed by Niksalehi.
